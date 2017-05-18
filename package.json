@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/mstaebler/shipfits/issues"
   },
-  "homepage": "https://github.com/mstaebler/shipfits#readme"
+  "homepage": "https://github.com/mstaebler/shipfits#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }
