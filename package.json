@@ -1,0 +1,23 @@
+{
+  "name": "shipfits",
+  "version": "1.0.0",
+  "description": "Star Citizen Ship Fitment Database",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mstaebler/shipfits.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mstaebler/shipfits/issues"
+  },
+  "homepage": "https://github.com/mstaebler/shipfits#readme"
+}
