@@ -29,6 +29,7 @@
                     <ul>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Add Fit</a></li>
+                        <li><a href="#">Add Ship</a></li>
                     </ul>
                 </nav>
             </header>
@@ -38,7 +39,8 @@
             <div class="main wrapper clearfix">
                 <p> Fits go here </p>
                 <form>
-                    <select>
+                    <select v-model="ship">
+                        <option disabled value="">Please select a ship</option>
                         <option>M50</option>
                         <option>Mustang Alpha</option>
                         <option>Mustang Beta</option>
@@ -50,6 +52,7 @@
                         <option>Gladius Valiant</option>
                         <option>Aurora ES</option>
                     </select>
+                    <span>Ship: {{ ship }} </span>
                     <select>
                         <option>Apocalypse Arms Revenant</option>
                         <option>Tarantula GT-870 MK3</option>
@@ -64,6 +67,27 @@
                     </select>
                     <input type="submit" value="submit">
                 </form>
+                <form>
+                    <input type="text" placeholder="ship name">
+                    <input type="text" placeholder="size 1 slots">
+                    <input type="text" placeholder="size 2 slots">
+                    <input type="text" placeholder="size 3 slots">
+                    <input type="text" placeholder="size 4 slots">
+                    <input type="text" placeholder="size 5 slots">
+                    <input type="text" placeholder="size 6 slots">
+                    <input type="text" placeholder="pylon mount size 1">
+                    <input type="text" placeholder="pylon mount size 2">
+                    <input type="text" placeholder="pylon mount size 3">
+                    <input type="text" placeholder="pylon mount size 4">
+                    <input type="text" placeholder="pylon mount size 5">
+                    <input type="text" placeholder="pylon mount size 6">
+                    <input type="text" placeholder="cooler">
+                    <input type="text" placeholder="shield generator">
+                    <input type="submit" value="submit">
+                </form>
+                <div id="app">
+                    {{ message }}
+                </div>
             </div> <!-- #main -->
         </div> <!-- #main-container -->
 
